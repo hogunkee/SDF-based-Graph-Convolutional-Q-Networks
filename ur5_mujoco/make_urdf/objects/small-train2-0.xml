@@ -1,0 +1,29 @@
+<mujoco model="shapenetsem1">
+  <asset>
+    <mesh file="meshes/shapenetsem1/shapenetsem1_0.stl" name="shapenetsem1_0" scale="1 1 1"/>
+    <mesh file="meshes/shapenetsem1/shapenetsem1_1.stl" name="shapenetsem1_1" scale="1 1 1"/>
+    <mesh file="meshes/shapenetsem1/shapenetsem1_2.stl" name="shapenetsem1_2" scale="1 1 1"/>
+    <mesh file="meshes/shapenetsem1/shapenetsem1_3.stl" name="shapenetsem1_3" scale="1 1 1"/>
+    <texture file="../textures/texture1-0.png" type="2d" name="tex-sem1"/>
+    <material name="sem1" reflectance="0.7" texrepeat="30 25" texture="tex-sem1" texuniform="true"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom pos="0 0 0" mesh="shapenetsem1_0" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.39 0.28 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem1_1" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.39 0.28 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem1_2" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.39 0.28 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem1_3" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.39 0.28 1" group="1" condim="4"/>
+      </body>
+      <body name="visual">
+        <geom pos="0 0 0" mesh="shapenetsem1_0" type="mesh" material="sem1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem1_1" type="mesh" material="sem1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem1_2" type="mesh" material="sem1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem1_3" type="mesh" material="sem1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+      </body>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 -0.06" name="bottom_site"/>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 0.04" name="top_site"/>
+      <site rgba="0 0 0 0" size="0.005" pos="0.025 0.025 0" name="horizontal_radius_site"/>
+    </body>
+  </worldbody>
+</mujoco>

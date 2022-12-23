@@ -1,0 +1,75 @@
+<mujoco model="Sprayflask">
+  <asset>
+    <mesh file="meshes/Sprayflask/Sprayflask_0.stl" name="Sprayflask_0"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_1.stl" name="Sprayflask_1"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_2.stl" name="Sprayflask_2"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_3.stl" name="Sprayflask_3"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_4.stl" name="Sprayflask_4"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_5.stl" name="Sprayflask_5"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_6.stl" name="Sprayflask_6"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_7.stl" name="Sprayflask_7"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_8.stl" name="Sprayflask_8"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_9.stl" name="Sprayflask_9"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_10.stl" name="Sprayflask_10"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_11.stl" name="Sprayflask_11"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_12.stl" name="Sprayflask_12"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_13.stl" name="Sprayflask_13"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_14.stl" name="Sprayflask_14"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_15.stl" name="Sprayflask_15"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_16.stl" name="Sprayflask_16"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_17.stl" name="Sprayflask_17"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_18.stl" name="Sprayflask_18"/>
+    <mesh file="meshes/Sprayflask/Sprayflask_19.stl" name="Sprayflask_19"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_0" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_1" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_2" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_3" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_4" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_5" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_6" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_7" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_8" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_9" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_10" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_11" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_12" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_13" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_14" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_15" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_16" pos="0 0 0" rgba="1 0 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_17" pos="0 0 0" rgba="1 0 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_18" pos="0 0 0" rgba="1 0 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="Sprayflask_19" pos="0 0 0" rgba="1 1 1 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_0" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_1" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_2" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_3" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_4" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_5" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_6" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_7" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_8" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_9" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_10" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_11" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_12" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_13" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_14" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_15" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_16" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_17" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_18" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Sprayflask_19" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,75 @@
+<mujoco model="GreenCup">
+  <asset>
+    <mesh file="meshes/GreenCup/GreenCup_0.stl" name="GreenCup_0" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_1.stl" name="GreenCup_1" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_2.stl" name="GreenCup_2" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_3.stl" name="GreenCup_3" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_4.stl" name="GreenCup_4" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_5.stl" name="GreenCup_5" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_6.stl" name="GreenCup_6" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_7.stl" name="GreenCup_7" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_8.stl" name="GreenCup_8" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_9.stl" name="GreenCup_9" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_10.stl" name="GreenCup_10" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_11.stl" name="GreenCup_11" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_12.stl" name="GreenCup_12" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_13.stl" name="GreenCup_13" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_14.stl" name="GreenCup_14" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_15.stl" name="GreenCup_15" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_16.stl" name="GreenCup_16" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_17.stl" name="GreenCup_17" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_18.stl" name="GreenCup_18" scale="1.4 1.4 1.4"/>
+    <mesh file="meshes/GreenCup/GreenCup_19.stl" name="GreenCup_19" scale="1.4 1.4 1.4"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_0" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_1" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_2" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_3" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_4" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_5" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_6" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_7" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_8" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_9" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_10" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_11" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_12" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_13" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_14" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_15" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_16" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_17" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_18" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="GreenCup_19" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_0" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_1" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_2" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_3" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_4" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_5" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_6" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_7" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_8" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_9" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_10" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_11" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_12" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_13" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_14" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_15" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_16" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_17" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_18" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="GreenCup_19" pos="0 0 0" rgba="0.094 0.702 0.082 0.8" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

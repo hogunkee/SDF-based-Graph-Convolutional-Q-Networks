@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro"
+       name="ur5" >
+  
+  <!-- ur5 -->
+  <xacro:include filename="$(find make_urdf)/urdf/ur5.urdf.xacro" />
+
+  <!-- arm -->
+  <xacro:arg name="kinematics_config" default="$(find make_urdf)/config/ur5_default.yaml"/>
+  <xacro:ur5_robot prefix="" joint_limited="true"
+    kinematics_file="${load_yaml('$(arg kinematics_config)')}"
+  />
+
+</robot>

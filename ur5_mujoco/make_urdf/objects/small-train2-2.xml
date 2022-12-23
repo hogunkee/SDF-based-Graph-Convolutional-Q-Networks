@@ -1,0 +1,53 @@
+<mujoco model="shapenetsem9">
+  <asset>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_0.stl" name="shapenetsem9_0" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_1.stl" name="shapenetsem9_1" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_2.stl" name="shapenetsem9_2" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_3.stl" name="shapenetsem9_3" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_4.stl" name="shapenetsem9_4" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_5.stl" name="shapenetsem9_5" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_6.stl" name="shapenetsem9_6" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_7.stl" name="shapenetsem9_7" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_8.stl" name="shapenetsem9_8" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_9.stl" name="shapenetsem9_9" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_10.stl" name="shapenetsem9_10" scale="0.6 0.6 0.6"/>
+    <mesh file="meshes/shapenetsem9/shapenetsem9_11.stl" name="shapenetsem9_11" scale="0.6 0.6 0.6"/>
+    <texture file="../textures/texture9-4.png" type="2d" name="tex-sem9"/>
+    <material name="sem9" reflectance="0.7" texrepeat="90 90" texture="tex-sem9" texuniform="true"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom pos="0 0 0" mesh="shapenetsem9_0" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_1" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_2" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_3" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_4" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_5" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_6" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_7" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_8" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_9" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_10" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_11" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="1 0.84 0 1" group="1" condim="4"/>
+      </body>
+      <body name="visual">
+        <geom pos="0 0 0" mesh="shapenetsem9_0" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_1" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_2" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_3" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_4" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_5" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_6" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_7" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_8" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_9" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_10" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenetsem9_11" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+      </body>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 -0.06" name="bottom_site"/>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 0.04" name="top_site"/>
+      <site rgba="0 0 0 0" size="0.005" pos="0.025 0.025 0" name="horizontal_radius_site"/>
+    </body>
+  </worldbody>
+</mujoco>

@@ -1,0 +1,63 @@
+<mujoco model="InstantSoup">
+  <asset>
+    <mesh file="meshes/InstantSoup/InstantSoup_0.stl" name="InstantSoup_0"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_1.stl" name="InstantSoup_1"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_2.stl" name="InstantSoup_2"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_3.stl" name="InstantSoup_3"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_4.stl" name="InstantSoup_4"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_5.stl" name="InstantSoup_5"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_6.stl" name="InstantSoup_6"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_7.stl" name="InstantSoup_7"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_8.stl" name="InstantSoup_8"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_9.stl" name="InstantSoup_9"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_10.stl" name="InstantSoup_10"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_11.stl" name="InstantSoup_11"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_12.stl" name="InstantSoup_12"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_13.stl" name="InstantSoup_13"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_14.stl" name="InstantSoup_14"/>
+    <mesh file="meshes/InstantSoup/InstantSoup_15.stl" name="InstantSoup_15"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_0" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_1" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_2" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_3" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_4" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_5" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_6" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_7" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_8" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_9" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_10" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_11" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_12" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_13" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_14" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="InstantSoup_15" pos="0 0 0" rgba="0.82 0.43 0.63 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_0" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_1" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_2" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_3" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_4" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_5" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_6" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_7" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_8" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_9" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_10" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_11" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_12" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_13" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_14" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="InstantSoup_15" pos="0 0 0" rgba="0.82 0.43 0.63 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

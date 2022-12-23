@@ -1,0 +1,60 @@
+<mujoco model="obj0">
+  <asset>
+    <mesh file="meshes/obj0/obj0_0.stl" name="obj0_0"/>
+    <mesh file="meshes/obj0/obj0_1.stl" name="obj0_1"/>
+    <mesh file="meshes/obj0/obj0_2.stl" name="obj0_2"/>
+    <mesh file="meshes/obj0/obj0_3.stl" name="obj0_3"/>
+    <mesh file="meshes/obj0/obj0_4.stl" name="obj0_4"/>
+    <mesh file="meshes/obj0/obj0_5.stl" name="obj0_5"/>
+    <mesh file="meshes/obj0/obj0_6.stl" name="obj0_6"/>
+    <mesh file="meshes/obj0/obj0_7.stl" name="obj0_7"/>
+    <mesh file="meshes/obj0/obj0_8.stl" name="obj0_8"/>
+    <mesh file="meshes/obj0/obj0_9.stl" name="obj0_9"/>
+    <mesh file="meshes/obj0/obj0_10.stl" name="obj0_10"/>
+    <mesh file="meshes/obj0/obj0_11.stl" name="obj0_11"/>
+    <mesh file="meshes/obj0/obj0_12.stl" name="obj0_12"/>
+    <mesh file="meshes/obj0/obj0_13.stl" name="obj0_13"/>
+    <mesh file="meshes/obj0/obj0_14.stl" name="obj0_14"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_0" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_1" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_2" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_3" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_4" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_5" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_6" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_7" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_8" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_9" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_10" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_11" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_12" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_13" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+        <geom condim="4" density="100" friction="0.95 0.3 0.1" group="1" mesh="obj0_14" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.001 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_0" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_1" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_2" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_3" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_4" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_5" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_6" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_7" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_8" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_9" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_10" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_11" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_12" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_13" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="obj0_14" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

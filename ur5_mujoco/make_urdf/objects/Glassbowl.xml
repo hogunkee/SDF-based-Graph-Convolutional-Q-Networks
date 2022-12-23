@@ -1,0 +1,75 @@
+<mujoco model="Glassbowl">
+  <asset>
+    <mesh file="meshes/Glassbowl/Glassbowl_0.stl" name="Glassbowl_0" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_1.stl" name="Glassbowl_1" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_2.stl" name="Glassbowl_2" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_3.stl" name="Glassbowl_3" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_4.stl" name="Glassbowl_4" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_5.stl" name="Glassbowl_5" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_6.stl" name="Glassbowl_6" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_7.stl" name="Glassbowl_7" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_8.stl" name="Glassbowl_8" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_9.stl" name="Glassbowl_9" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_10.stl" name="Glassbowl_10" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_11.stl" name="Glassbowl_11" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_12.stl" name="Glassbowl_12" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_13.stl" name="Glassbowl_13" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_14.stl" name="Glassbowl_14" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_15.stl" name="Glassbowl_15" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_16.stl" name="Glassbowl_16" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_17.stl" name="Glassbowl_17" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_18.stl" name="Glassbowl_18" scale="3 1.25 1.25"/>
+    <mesh file="meshes/Glassbowl/Glassbowl_19.stl" name="Glassbowl_19" scale="3 1.25 1.25"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_0" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_1" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_2" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_3" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_4" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_5" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_6" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_7" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_8" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_9" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_10" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_11" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_12" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_13" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_14" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_15" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_16" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_17" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_18" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="Glassbowl_19" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_0" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_1" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_2" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_3" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_4" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_5" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_6" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_7" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_8" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_9" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_10" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_11" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_12" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_13" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_14" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_15" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_16" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_17" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_18" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="Glassbowl_19" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

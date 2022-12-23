@@ -1,0 +1,48 @@
+<mujoco model="shapenet9-17">
+  <asset>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_0.stl" name="shapenet9-17_0" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_1.stl" name="shapenet9-17_1" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_2.stl" name="shapenet9-17_2" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_3.stl" name="shapenet9-17_3" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_4.stl" name="shapenet9-17_4" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_5.stl" name="shapenet9-17_5" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_6.stl" name="shapenet9-17_6" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_7.stl" name="shapenet9-17_7" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_8.stl" name="shapenet9-17_8" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_9.stl" name="shapenet9-17_9" scale="0.1 0.1 0.1"/>
+    <mesh file="meshes/shapenet9-17/shapenet9-17_10.stl" name="shapenet9-17_10" scale="0.1 0.1 0.1"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom pos="0 0 0" mesh="shapenet9-17_0" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_1" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_2" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_3" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_4" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_5" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_6" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_7" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_8" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_9" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_10" type="mesh" solimp="0.998 0.998 0.001" solref="0.001 1" density="100" friction="0.95 0.3 0.1" rgba="0 1 0 1" group="1" condim="4"/>
+      </body>
+      <body name="visual">
+        <geom pos="0 0 0" mesh="shapenet9-17_0" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_1" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_2" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_3" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_4" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_5" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_6" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_7" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_8" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_9" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+        <geom pos="0 0 0" mesh="shapenet9-17_10" type="mesh" rgba="0 1 0 1" conaffinity="0" contype="0" group="0" mass="0.0001"/>
+      </body>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 -0.06" name="bottom_site"/>
+      <site rgba="0 0 0 0" size="0.005" pos="0 0 0.04" name="top_site"/>
+      <site rgba="0 0 0 0" size="0.005" pos="0.025 0.025 0" name="horizontal_radius_site"/>
+    </body>
+  </worldbody>
+</mujoco>

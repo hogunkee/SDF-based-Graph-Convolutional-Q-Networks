@@ -1,0 +1,75 @@
+<mujoco model="SmallGlass">
+  <asset>
+    <mesh file="meshes/SmallGlass/SmallGlass_0.stl" name="SmallGlass_0" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_1.stl" name="SmallGlass_1" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_2.stl" name="SmallGlass_2" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_3.stl" name="SmallGlass_3" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_4.stl" name="SmallGlass_4" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_5.stl" name="SmallGlass_5" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_6.stl" name="SmallGlass_6" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_7.stl" name="SmallGlass_7" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_8.stl" name="SmallGlass_8" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_9.stl" name="SmallGlass_9" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_10.stl" name="SmallGlass_10" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_11.stl" name="SmallGlass_11" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_12.stl" name="SmallGlass_12" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_13.stl" name="SmallGlass_13" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_14.stl" name="SmallGlass_14" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_15.stl" name="SmallGlass_15" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_16.stl" name="SmallGlass_16" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_17.stl" name="SmallGlass_17" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_18.stl" name="SmallGlass_18" scale="1 1 0.9"/>
+    <mesh file="meshes/SmallGlass/SmallGlass_19.stl" name="SmallGlass_19" scale="1 1 0.9"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_0" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_1" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_2" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_3" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_4" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_5" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_6" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_7" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_8" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_9" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_10" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_11" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_12" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_13" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_14" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_15" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_16" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_17" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_18" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="SmallGlass_19" pos="0 0 0" rgba="1 0.85 0.73 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_0" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_1" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_2" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_3" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_4" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_5" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_6" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_7" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_8" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_9" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_10" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_11" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_12" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_13" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_14" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_15" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_16" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_17" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_18" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="SmallGlass_19" pos="0 0 0" rgba="0.6353 0.937 0.953 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

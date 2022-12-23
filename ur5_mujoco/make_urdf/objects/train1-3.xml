@@ -1,0 +1,77 @@
+<mujoco model="FlowerCup">
+  <asset>
+    <mesh file="meshes/FlowerCup/FlowerCup_0.stl" name="FlowerCup_0" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_1.stl" name="FlowerCup_1" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_2.stl" name="FlowerCup_2" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_3.stl" name="FlowerCup_3" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_4.stl" name="FlowerCup_4" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_5.stl" name="FlowerCup_5" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_6.stl" name="FlowerCup_6" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_7.stl" name="FlowerCup_7" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_8.stl" name="FlowerCup_8" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_9.stl" name="FlowerCup_9" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_10.stl" name="FlowerCup_10" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_11.stl" name="FlowerCup_11" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_12.stl" name="FlowerCup_12" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_13.stl" name="FlowerCup_13" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_14.stl" name="FlowerCup_14" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_15.stl" name="FlowerCup_15" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_16.stl" name="FlowerCup_16" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_17.stl" name="FlowerCup_17" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_18.stl" name="FlowerCup_18" scale="1.2 1.2 1.2"/>
+    <mesh file="meshes/FlowerCup/FlowerCup_19.stl" name="FlowerCup_19" scale="1.2 1.2 1.2"/>
+    <texture file="../textures/flowercup_0.png" name="tex-flowercup" />
+    <material name="ceramic" reflectance="0.7" texrepeat="15 15" texture="tex-flowercup" texuniform="true"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_0" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_1" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_2" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_3" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_4" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_5" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_6" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_7" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_8" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_9" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_10" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_11" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_12" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_13" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_14" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_15" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_16" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_17" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_18" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+        <geom condim="4" density="100" friction="1.8 0.3 0.1" group="1" mesh="FlowerCup_19" pos="0 0 0" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh" rgba="0.5 0 0.5 1"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_0" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_1" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_2" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_3" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_4" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_5" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_6" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_7" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_8" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_9" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_10" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_11" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_12" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_13" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_14" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_15" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_16" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_17" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_18" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="FlowerCup_19" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>

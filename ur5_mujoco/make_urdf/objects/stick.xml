@@ -1,0 +1,18 @@
+<mujoco model="stick">
+  <asset>
+    <mesh file="meshes/stick_meshes/stick_mesh_part_0.stl" name="stick_mesh_part_0" scale="0.75 1.0 0.75"/>
+  </asset>
+  <worldbody>
+    <body>
+      <body name="collision">
+        <geom condim="4" density="100" friction="1.5 0.3 0.1" group="1" mesh="stick_mesh_part_0" pos="0 0 0" rgba="0 1 0 1" solimp="0.998 0.998 0.001" solref="0.002 1" type="mesh"/>
+      </body>
+      <body name="visual">
+        <geom conaffinity="0" contype="0" group="0" mass="0.0001" mesh="stick_mesh_part_0" pos="0 0 0" rgba="0 1 0 1" type="mesh"/>
+      </body>
+      <site name="bottom_site" pos="0 0 -0.06" rgba="0 0 0 0" size="0.005"/>
+      <site name="top_site" pos="0 0 0.04" rgba="0 0 0 0" size="0.005"/>
+      <site name="horizontal_radius_site" pos="0.025 0.025 0" rgba="0 0 0 0" size="0.005"/>
+    </body>
+  </worldbody>
+</mujoco>
