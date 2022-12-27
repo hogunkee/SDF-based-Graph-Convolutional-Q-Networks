@@ -19,7 +19,7 @@ To train a model:
 python dqn_train.py
 ```
 
-To test the pre-trained model:
+To test the trained model:
 
 ```
 python dqn_eval.py --model_path [MODEL_NAME]
