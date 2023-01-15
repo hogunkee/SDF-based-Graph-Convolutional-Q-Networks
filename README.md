@@ -20,7 +20,7 @@ To train a model:
 python dqn_train.py --render --show_q
 
 # Rendering off #
-python dqn_train.py --gpu [gpu_idx] --show_q
+python dqn_train.py --gpu [GPU_ID] --show_q
 ```
 
 To test the trained model:
@@ -30,7 +30,7 @@ To test the trained model:
 python dqn_eval.py --model_path [MODEL_NAME] --render --show_q
 
 # Rendering off #
-python dqn_eval.py --model_path [MODEL_NAME] --gpu [gpu_idx] --show_q
+python dqn_eval.py --model_path [MODEL_NAME] --gpu [GPU_ID] --show_q
 ```
 
 To test the rule-based method:
@@ -40,7 +40,7 @@ To test the rule-based method:
 python rulebased_eval.py --render --show_q
 
 # Rendering off #
-python rulebased_eval.py --gpu [gpu_idx] --show_q
+python rulebased_eval.py --gpu [GPU_ID] --show_q
 ```
 
 ## License
