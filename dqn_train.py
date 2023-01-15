@@ -622,7 +622,7 @@ if __name__=='__main__':
     parser.add_argument("--show_q", action="store_true")
     parser.add_argument("--seed", default=None, type=int)
     parser.add_argument("--gpu", default=-1, type=int)
-    parser.add_argument("--wandb_off", action="store_true")
+    parser.add_argument("--wandb_off", action="store_false")
     args = parser.parse_args()
 
     # random seed #
