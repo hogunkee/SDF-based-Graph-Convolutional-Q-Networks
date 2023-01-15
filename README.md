@@ -16,20 +16,33 @@ The scene graph encoder consists of CNN layer-based graph convolution layers.
 To train a model:
 
 ```
-python dqn_train.py
+# Rendering on #
+python dqn_train.py --render --show_q
+
+# Rendering off #
+python dqn_train.py --gpu [gpu_idx] --show_q
 ```
 
 To test the trained model:
 
 ```
-python dqn_eval.py --model_path [MODEL_NAME]
+# Rendering on #
+python dqn_eval.py --model_path [MODEL_NAME] --render --show_q
+
+# Rendering off #
+python dqn_eval.py --model_path [MODEL_NAME] --gpu [gpu_idx] --show_q
 ```
 
 To test the rule-based method:
 
 ```
-python rulebased_eval.py
+# Rendering on #
+python rulebased_eval.py --render --show_q
+
+# Rendering off #
+python rulebased_eval.py --gpu [gpu_idx] --show_q
 ```
 
 ## License
 MIT License.
+
