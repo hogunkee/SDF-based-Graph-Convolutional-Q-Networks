@@ -3,7 +3,10 @@ import sys
 FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(FILE_PATH, 'ur5_mujoco'))
 from object_env import *
-from training_utils import *
+
+from utils.training_utils import *
+from utils.sdf_module import SDFModule
+from utils.replay_buffer import ReplayBuffer, PER
 
 import torch
 import torch.nn as nn
@@ -16,8 +19,6 @@ import datetime
 import random
 import pylab
 
-from sdf_module import SDFModule
-from replay_buffer import ReplayBuffer, PER
 from matplotlib import pyplot as plt
 from PIL import Image
 
@@ -134,7 +135,7 @@ def evaluate(env,
         plt.rc('axes', labelsize=6)
         plt.rc('font', size=8)
 
-        fig = plt.figure()
+        fig = plt.figure(figsize=(6,5))
         ax0 = fig.add_subplot(221)
         ax1 = fig.add_subplot(222)
         ax2 = fig.add_subplot(223)
@@ -153,6 +154,7 @@ def evaluate(env,
         ax3.set_yticks([])
         plt.show(block=False)
         fig.canvas.draw()
+        fig.canvas.flush_events()
 
         cm = pylab.get_cmap('gist_rainbow')
 
@@ -210,6 +212,7 @@ def evaluate(env,
                 current_sdfs += np.expand_dims(vis_c[_s], 2) * np.array(cm(_s/5)[:3])
             ax3.imshow(norm_npy(current_sdfs))
             fig.canvas.draw()
+            fig.canvas.flush_events()
 
         for t_step in range(env.max_steps):
             ep_len += 1
@@ -271,6 +274,7 @@ def evaluate(env,
                     current_sdfs += np.expand_dims(vis_c[_s], 2) * np.array(cm(_s/5)[:3])
                 ax3.imshow(norm_npy(current_sdfs))
                 fig.canvas.draw()
+                fig.canvas.flush_events()
 
                 # save images
                 #fnum = len([f for f in os.listdir('test_scenes/sdfs/') if 'o' in f])
@@ -341,7 +345,7 @@ if __name__=='__main__':
     # sdf #
     parser.add_argument("--oracle", action="store_true")
     # model #
-    parser.add_argument("--model_path", default="0105_1223", type=str)
+    parser.add_argument("--model_path", default="0614_1203", type=str)
     # etc #
     parser.add_argument("--num_trials", default=100, type=int)
     parser.add_argument("--show_q", action="store_true")
@@ -379,8 +383,8 @@ if __name__=='__main__':
 
     # evaluate configuration
     num_trials = args.num_trials
-    model_path = os.path.join("results/models/%s.pth" % args.model_path)
-    config_path = os.path.join("results/config/%s.json" % args.model_path)
+    model_path = os.path.join("results/models/DQN_%s.pth" % args.model_path)
+    config_path = os.path.join("results/config/DQN_%s.json" % args.model_path)
 
     # model configuration
     with open(config_path, 'r') as cf:
@@ -430,21 +434,21 @@ if __name__=='__main__':
     if ver==0:
         # s_t => CNN => GCN
         # g   => CNN => GCN
-        from models.track_gcn_nsdf import TrackQNetV0 as QNet
+        from models.track_gcn_nobn import TrackQNetV0 as QNet
         n_hidden = 8 #16
     elif ver==1:
         # concat (s_t, g)
         # (s_t | g) => CNN => GCN
-        from models.track_gcn_nsdf import TrackQNetV1 as QNet
+        from models.track_gcn_nobn import TrackQNetV1 as QNet
         n_hidden = 8
     elif ver==2:
         # based on ver.0
         # full adjacency matrix
-        from models.track_gcn_nsdf import TrackQNetV2 as QNet
+        from models.track_gcn_nobn import TrackQNetV2 as QNet
         n_hidden = 8
     elif ver==3:
         # CNN version
-        from models.track_gcn_nsdf import TrackQNetV3 as QNet
+        from models.track_gcn_nobn import TrackQNetV3 as QNet
         n_hidden = 64
 
     evaluate(env=env, sdf_module=sdf_module, n_actions=8, n_hidden=n_hidden, \

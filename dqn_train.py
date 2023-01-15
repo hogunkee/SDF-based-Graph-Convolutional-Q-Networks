@@ -3,9 +3,12 @@ import sys
 FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(FILE_PATH, 'ur5_mujoco'))
 from object_env import *
-from training_utils import *
 from skimage import color
 from PIL import Image
+
+from utils.training_utils import *
+from utils.sdf_module import SDFModule
+from utils.replay_buffer import ReplayBuffer, PER
 
 import torch
 import torch.nn as nn
@@ -18,8 +21,6 @@ import datetime
 import random
 import pylab
 
-from sdf_module import SDFModule
-from replay_buffer import ReplayBuffer, PER
 from matplotlib import pyplot as plt
 
 import warnings
@@ -216,7 +217,7 @@ def learning(env,
 
     if visualize_q:
         cm = pylab.get_cmap('gist_rainbow')
-        fig = plt.figure()
+        fig = plt.figure(figsize=(6,5))
         ax0 = fig.add_subplot(221)
         ax1 = fig.add_subplot(222)
         ax2 = fig.add_subplot(223)
@@ -236,6 +237,7 @@ def learning(env,
 
         plt.show(block=False)
         fig.canvas.draw()
+        fig.canvas.flush_events()
 
     count_steps = 0
     for ne in range(total_episodes):
@@ -296,6 +298,7 @@ def learning(env,
                 current_sdfs += np.expand_dims(vis_c[_s], 2) * np.array(cm(_s/5)[:3])
             ax3.imshow(norm_npy(current_sdfs))
             fig.canvas.draw()
+            fig.canvas.flush_events()
 
         for t_step in range(_env.max_steps):
             count_steps += 1
@@ -358,6 +361,7 @@ def learning(env,
                     current_sdfs += np.expand_dims(vis_c[_s], 2) * np.array(cm(_s/5)[:3])
                 ax3.imshow(norm_npy(current_sdfs))
                 fig.canvas.draw()
+                fig.canvas.flush_events()
 
             ## save transition to the replay buffer ##
             if per:
@@ -774,21 +778,21 @@ if __name__=='__main__':
     if ver==0:
         # s_t => CNN => GCN
         # g   => CNN => GCN
-        from models.track_gcn_nsdf import TrackQNetV0 as QNet
+        from models.track_gcn_nobn import TrackQNetV0 as QNet
         n_hidden = 8 #16
     elif ver==1:
         # concat (s_t, g)
         # (s_t | g) => CNN => GCN
-        from models.track_gcn_nsdf import TrackQNetV1 as QNet
+        from models.track_gcn_nobn import TrackQNetV1 as QNet
         n_hidden = 8
     elif ver==2:
         # based on ver.0
         # full adjacency matrix
-        from models.track_gcn_nsdf import TrackQNetV2 as QNet
+        from models.track_gcn_nobn import TrackQNetV2 as QNet
         n_hidden = 8
     elif ver==3:
         # CNN version
-        from models.track_gcn_nsdf import TrackQNetV3 as QNet
+        from models.track_gcn_nobn import TrackQNetV3 as QNet
         n_hidden = 64
 
     # wandb model name #

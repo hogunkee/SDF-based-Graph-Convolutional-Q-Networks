@@ -3,7 +3,10 @@ import sys
 FILE_PATH = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.join(FILE_PATH, 'ur5_mujoco'))
 from object_env import *
-from training_utils import *
+
+from utils.training_utils import *
+from utils.sdf_module import SDFModule
+from utils.replay_buffer import ReplayBuffer, PER
 
 import torch
 import torch.nn as nn
@@ -16,8 +19,6 @@ import datetime
 import random
 import pylab
 
-from sdf_module import SDFModule
-from replay_buffer import ReplayBuffer, PER
 from matplotlib import pyplot as plt
 from PIL import Image
 
@@ -112,7 +113,8 @@ def evaluate(env,
         plt.rc('axes', labelsize=6)
         plt.rc('font', size=8)
 
-        fig = plt.figure()
+        cm = pylab.get_cmap('gist_rainbow')
+        fig = plt.figure(figsize=(6,5))
         ax0 = fig.add_subplot(221)
         ax1 = fig.add_subplot(222)
         ax2 = fig.add_subplot(223)
@@ -121,13 +123,18 @@ def evaluate(env,
         ax1.set_title('Observation')
         ax2.set_title('Goal SDF')
         ax3.set_title('Current SDF')
+        ax0.set_xticks([])
+        ax0.set_yticks([])
+        ax1.set_xticks([])
+        ax1.set_yticks([])
+        ax2.set_xticks([])
+        ax2.set_yticks([])
+        ax3.set_xticks([])
+        ax3.set_yticks([])
+
         plt.show(block=False)
         fig.canvas.draw()
-
-        cm = pylab.get_cmap('gist_rainbow')
-
-    from PIL import Image
-    ni = 0 
+        fig.canvas.flush_events()
 
     epsilon = 0.1
     for ne in range(num_trials):
@@ -144,12 +151,9 @@ def evaluate(env,
                 sdf_st, sdf_raw, feature_st = sdf_module.get_sdf_features_with_ucn(state_img[0], state_img[1], env.num_blocks, clip=clip_sdf)
                 sdf_g, _, feature_g = sdf_module.get_sdf_features_with_ucn(goal_img[0], goal_img[1], env.num_blocks, clip=clip_sdf)
             sdfimg = ((sdf_g > 0).astype(int)*255).astype(np.uint8).transpose([1,2,0])
-            Image.fromarray(sdfimg).save('test_scenes/sdf/%d.png'%ni)
-            ni += 1
             if round_sdf:
                 sdf_g = sdf_module.make_round_sdf(sdf_g)
             check_env_ready = (len(sdf_g)==env.num_blocks) & (len(sdf_st)==env.num_blocks)
-        continue
 
         n_detection = len(sdf_st)
         # target: st / source: g
@@ -187,6 +191,7 @@ def evaluate(env,
                 current_sdfs += np.expand_dims(vis_c[_s], 2) * np.array(cm(_s/5)[:3])
             ax3.imshow(norm_npy(current_sdfs))
             fig.canvas.draw()
+            fig.canvas.flush_events()
 
         for t_step in range(env.max_steps):
             ep_len += 1
@@ -248,14 +253,7 @@ def evaluate(env,
                     current_sdfs += np.expand_dims(vis_c[_s], 2) * np.array(cm(_s/5)[:3])
                 ax3.imshow(norm_npy(current_sdfs))
                 fig.canvas.draw()
-
-                # save images
-                #fnum = len([f for f in os.listdir('test_scenes/sdfs/') if 'o' in f])
-                #im = Image.fromarray((next_state_img[0] * 255).astype(np.uint8))
-                #im.save('test_scenes/sdfs/o%d.png' %fnum)
-                #fnum = len([f for f in os.listdir('test_scenes/sdfs/') if 's' in f])
-                #im = Image.fromarray((norm_npy(current_sdfs) * 255).astype(np.uint8))
-                #im.save('test_scenes/sdfs/s%d.png' %fnum)
+                fig.canvas.flush_events()
 
             if done:
                 break
